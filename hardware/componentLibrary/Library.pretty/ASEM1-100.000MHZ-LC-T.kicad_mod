@@ -1,0 +1,132 @@
+(footprint "ASEM1-100.000MHZ-LC-T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.982 -2.4028 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0059bbfd-691e-456c-a943-d1cd2f497fc3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "100MHz"
+		(at 0 2.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e14f2e0a-03cf-41f1-b651-905fc5d7db00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e35a109d-a514-4f1d-ba0f-995ed3a0f8b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22328b80-8e94-47d0-810b-200c105295ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.9375 -1.6875)
+		(end 1.9375 1.6875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "600f06c9-ee05-4ef5-9236-369a6e993457")
+	)
+	(fp_circle
+		(center -2.575 0.95)
+		(end -2.375 1.2)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "341ea796-6a5c-420a-a4a3-4fa7c7baf241")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dea0f2a0-ae6d-41af-8fd1-fe98f6515c1d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.05 0.95)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "ceb2a2cd-e704-4ecd-aabb-ad48b08c133a")
+	)
+	(pad "2" smd roundrect
+		(at 1.05 0.95)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "315fc55b-1f2b-4a70-aad9-7022eede0da3")
+	)
+	(pad "3" smd roundrect
+		(at 1.05 -0.95)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "29968b60-ba1c-4b0c-aebc-507820969e30")
+	)
+	(pad "4" smd roundrect
+		(at -1.05 -0.95)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "bd740266-3800-4d25-be26-6201d08c807e")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/nicho/My Drive/Projects/Projects/PCB projects/MyKicadLibrary/3dBodies/ASEM.STEP"
+		(opacity 0.9500)
+		(offset
+			(xyz 0 0 0.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

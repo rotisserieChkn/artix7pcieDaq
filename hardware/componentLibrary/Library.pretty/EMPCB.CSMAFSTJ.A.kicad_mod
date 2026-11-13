@@ -1,0 +1,142 @@
+(footprint "EMPCB.CSMAFSTJ.A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.699 -0.5588 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "913c63fb-6870-4136-ba76-73381cc67c87")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMA_Connector"
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "341f7372-c79a-4c11-bd5c-4fdd5f23ca40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ae1d6b8-5bfd-4409-a019-16efefbde3e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e8c6b09-c19a-44f1-b567-e8e803e9fef3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4 2.28)
+		(end 4 2.28)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ad2727a5-3f11-455d-8bed-79e10559a4e5")
+	)
+	(fp_rect
+		(start -4 -3)
+		(end 4 2.28)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3e3a4842-189c-4837-a966-e8450c6c8170")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "48fa0820-4faa-498f-9084-a4abcf849372")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 0.85 4.56)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -10)
+		(thermal_bridge_angle 45)
+		(uuid "f01b8c48-7738-45e0-9e6a-2b93ab236a8f")
+	)
+	(pad "2" smd rect
+		(at -2.62 0)
+		(size 1 4.56)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -10)
+		(thermal_bridge_angle 45)
+		(uuid "aadd7339-9b5d-452e-aaf1-d07a4861d317")
+	)
+	(pad "2" smd rect
+		(at -2.62 0)
+		(size 1 4.56)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(solder_paste_margin -10)
+		(thermal_bridge_angle 45)
+		(uuid "1aa6e8da-33b2-4aaf-b621-bac62987d280")
+	)
+	(pad "2" smd rect
+		(at 2.62 0)
+		(size 1 4.56)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -10)
+		(thermal_bridge_angle 45)
+		(uuid "c4e93f98-4d9a-4b46-ac3d-5c7f8eb4085a")
+	)
+	(pad "2" smd rect
+		(at 2.62 0)
+		(size 1 4.56)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(solder_paste_margin -10)
+		(thermal_bridge_angle 45)
+		(uuid "c16c9f15-0521-476a-a777-7265a1be4da2")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/nicho/My Drive/Projects/Projects/PCB projects/MyKicadLibrary/3dBodies/EMPCB.CSMAFSTJ.A_Web.STEP"
+		(offset
+			(xyz 0 -10 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
